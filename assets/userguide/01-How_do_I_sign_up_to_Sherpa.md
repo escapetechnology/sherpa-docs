@@ -11,13 +11,13 @@ Before you can connect or accept invites to your workstations you need to sign u
 ## Go to the Sherpa website
 You can access Sherpa via this link <https://sherpa.app.escape-technology.com/>
 
-![Sherpa login screen](/assets/images/login_screen.jpeg)
+![Sherpa login screen](/sherpa-docs/assets/images/login_screen.jpeg)
 
 Either click on the "Sign up" link on the Sherpa website login page or you can navigate to the page directly using the following link, <https://sherpa.app.escape-technology.com/signup>
 
 Fill in your details and submit the sign-up form.
 
-![Sherpa signup form](/assets/images/signup_form.jpeg)
+![Sherpa signup form](/sherpa-docs/assets/images/signup_form.jpeg)
 
 The **email address** that you enter here will be the one that your administrator will use to invite you to your workstation and other project resources. This **email address** will also be used for Sherpa account recovery purposes if needed.
 
@@ -35,7 +35,7 @@ The **password** you choose must meet the following requirements:
 
 Once you have submitted the form a verification email will be sent to the email address you registered. You will need to click the **Verify your account** link in that email in order to complete the signup process.
 
-![Verify your account email](/assets/images/verify_account_email.jpeg)
+![Verify your account email](/sherpa-docs/assets/images/verify_account_email.jpeg)
 
 If you have a problem with this verification process or you feel you have not received your verification email, please contact <support@escape-technology.com>.
 
@@ -47,4 +47,4 @@ When you first log in you will be presented with your Dashboard. The dashboard g
 
 Initially, this will be empty.
 
-![Dashboard](/assets/images/dashboard_empty.jpg)
+![Dashboard](/sherpa-docs/assets/images/dashboard_empty.jpg)
