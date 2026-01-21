@@ -39,47 +39,47 @@ For security reasons, Sherpa restricts how different resource types in a Sherpa 
 
 In order to make configuration change in Deadline you need to select _Tools -> Super User Mode._
 
-![deadline-super-user-mode](/docs/images/deadline-super-user-mode.png)
+![deadline-super-user-mode](/images/deadline-super-user-mode.png)
 
 Once selected you should see many more options. Now, under the _Tools_ menu select _Configure Repository Options..._.
 
-![configure-repository-options](/docs/images/configure-repository-options.png)
+![configure-repository-options](/images/configure-repository-options.png)
 
 ### Client Setup
 
 In the _Client Setup_ section, under the _General_ tab, select _Automatic Upgrades / Downgrades_.
 
-![automatic-upgrades](/docs/images/automatic-upgrades.png)
+![automatic-upgrades](/images/automatic-upgrades.png)
 
 In the _Client Setup_ section, under the _Remote Control_ tab, select _Remote Administration_ and _Disable the allow list_.
 
-![remote-control](/docs/images/remote-control.png)
+![remote-control](/images/remote-control.png)
 
 ### Worker Settings
 
 Under _Worker Settings_, make sure that _Global Remote Command Port Override_, _Use Worker's IP address ..._ and _Number of minutes before ..._ are set as indicated in the screen-grab below.
 
-![worker-settings](/docs/images/worker-settings.png)
+![worker-settings](/images/worker-settings.png)
 
 ### Pulse Settings
 
 Under _Pulse Settings_ in the _General_ tab, make sure that _Global Remote ..._ and _Use Pulse's IP Address ..._ are set as in the example below.
 
-![pulse-settings](/docs/images/pulse-settings.png)
+![pulse-settings](/images/pulse-settings.png)
 
 Under _Pulse Settings_ in the _Power Management_ tab, make sure that _Power Management Check ..._ is set to 60 as in the example below.
 
-![pulse-power-management](/docs/images/pulse-power-management.png)
+![pulse-power-management](/images/pulse-power-management.png)
 
 ### Options
 
 Under _Tools -> Options_ ...
 
-![options](/docs/images/options.png)
+![options](/images/options.png)
 
 Make sure _Enable Worker Pinging_ box is ticked.
 
-![enable-worker-ping](/docs/images/enable-worker-ping.png)
+![enable-worker-ping](/images/enable-worker-ping.png)
 
 The above will let you see quickly whether a render node/worker is contactable.
 
@@ -88,13 +88,13 @@ The above will let you see quickly whether a render node/worker is contactable.
 There is a **Sherpa Deadline Event** plugin which helps minimise your spend on render nodes by turning on existing render nodes when they are required and turning them off when they are not required.
 
 To access the Sherpa Event plugin click on _Tools/Configure Events..._
-![configure-events](/docs/images/configure-events.png)
+![configure-events](/images/configure-events.png)
 
 ### Disable AWSPortal
 
 Disable AWS Portal by setting the _State_ to be _Disabled_.
 
-![disable-aws-portal](/docs/images/disable-aws-portal.png)
+![disable-aws-portal](/images/disable-aws-portal.png)
 
 ### Configure Sherpa Event plugin
 
@@ -105,13 +105,13 @@ Make sure you have set the following correctly as per the screen-grab below.
 - **API secret:** This is your Sherpa admin username password
 - **Project ID:** This is the Sherpa project ID
 
-![configure-sherpa-event-plugin](/docs/images/configure-sherpa-event-plugin.png)
+![configure-sherpa-event-plugin](/images/configure-sherpa-event-plugin.png)
 
 ### Configure Power Management
 
 Select _Tools -> Configure Power Management ..._
 
-![configure-power-management](/docs/images/configure-power-management.png)
+![configure-power-management](/images/configure-power-management.png)
 
 ### Add Power Management Group
 
@@ -123,7 +123,7 @@ Make sure you have set the following correctly as per the screen-grab below.
 - **Group Mode:** Enabled
 - **Include All Workers in this Group:** Make sure this is enabled
 
-![add-power-management-group](/docs/images/add-power-management-group.png)
+![add-power-management-group](/images/add-power-management-group.png)
 
 ### Configure Idle Shutdown
 
@@ -135,7 +135,7 @@ Make sure you have set the following correctly as per the screen-grab below.
   - If you are building workstations in Sherpa and have this set too low, you run the risk of Deadline shutting down a workstation before it has been successfully built.
 - **Minimum Number of Workers to Leave Running:** 0
 
-![configure-idle-shutdown](/docs/images/configure-idle-shutdown.png)
+![configure-idle-shutdown](/images/configure-idle-shutdown.png)
 
 ### Configure Machine Startup
 
@@ -147,7 +147,7 @@ Make sure you have set the following correctly as per the screen-grab below.
   - Hence, if there were jobs in the Deadline queue waiting to be executed, the above settings would result in 5 existing render nodes being turned on every 60 secs.
 - **Target Number of Extra Idle Workers:** 0
 
-![configure-machine-startup](/docs/images/configure-machine-startup.png)
+![configure-machine-startup](/images/configure-machine-startup.png)
 
 ## Post configuration
 
@@ -170,31 +170,31 @@ Configuration changes percolate through the system and can take up to 10 mins to
 
 If you successfully configured power management then your system should behave as illustrated below.
 
-![idle-shutdown-01](/docs/images/idle-shutdown-01.png)
+![idle-shutdown-01](/images/idle-shutdown-01.png)
 
 Zooming in on some of the important detail from the screen-grab above ...
 
 A. The render node is on-line and pingable.
-![idle-shutdown-01a](/docs/images/idle-shutdown-01a.png)
+![idle-shutdown-01a](/images/idle-shutdown-01a.png)
 
 B. The node has successfully checked in with the Sherpa Event plugin and its Sherpa name appears in the description field in the Deadline monitor worker view.
-![idle-shutdown-01b](/docs/images/idle-shutdown-01b.png)
+![idle-shutdown-01b](/images/idle-shutdown-01b.png)
 
 **Note:** If you do not see the name of the render node in this column then you have probably mistyped something when running through the _Configure Sherpa Event plugin_ section earlier in this document.
 
 C. The render node has been idle for 1.6 minutes.
-![idle-shutdown-01c](/docs/images/idle-shutdown-01c.png)
+![idle-shutdown-01c](/images/idle-shutdown-01c.png)
 
 In the example below I have set the Idle Shutdown time to be 2 minute.
-![idle-shutdown-02](/docs/images/idle-shutdown-02.png)
+![idle-shutdown-02](/images/idle-shutdown-02.png)
 
 Hence after 2.5 minutes the render node has been switched off and is now being reported as _Timed Out_.
-![idle-shutdown-02a](/docs/images/idle-shutdown-02a.png)
+![idle-shutdown-02a](/images/idle-shutdown-02a.png)
 
 During the configuration process we set the _Number of minutes before an unresponsive Worker is marked as Stalled_ to 5 mins.
-![idle-shutdown-03](/docs/images/idle-shutdown-03.png)
+![idle-shutdown-03](/images/idle-shutdown-03.png)
 
 So 5 minutes later the render node turns red and gets marked as _Stalled_ (or _Offline_).
-![idle-shutdown-03a](/docs/images/idle-shutdown-03a.png)
+![idle-shutdown-03a](/images/idle-shutdown-03a.png)
 
 If your list of Workers gets messy, you can delete any stalled Workers from the list. When you turn the render nodes on again in Sherpa they will check in with Deadline and the Sherpa Event plugin and they will re-appear in the list of Workers in Deadline Monitor.

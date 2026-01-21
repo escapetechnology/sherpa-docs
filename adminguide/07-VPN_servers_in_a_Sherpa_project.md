@@ -32,21 +32,21 @@ In order for people to connect to the Remote Access VPN it needs to be on. This 
 
 Hopefully when you created your Sherpa Project you remembered to use an SSH key. You will need this SSH key in order to SSH into the Remote Access VPN server.
 
-![project-ssh-key](/docs/images/project-ssh-key.png)
+![project-ssh-key](/images/project-ssh-key.png)
 
 You can add a Remote Access VPN server to an existing Sherpa Project by clicking on the **+** button and selecting _Add Virtual Private Network_.
 
-![add-vpn](/docs/images/add-vpn.png)
+![add-vpn](/images/add-vpn.png)
 
 Give it a suitable name, select the _Remote Access VPN_ build profile and select an appropriate size.
 
-![add-remote-access-vpn](/docs/images/add-remote-access-vpn.png)
+![add-remote-access-vpn](/images/add-remote-access-vpn.png)
 
 Then press on _Create_.
 
 You will find the newly created Remote Access VPN under the _Core Infrastructure_ tab on the _Project Resources_ page. The green tick indicates that the server has been built.
 
-![ra-vpn-created](/docs/images/ra-vpn-created.png)
+![ra-vpn-created](/images/ra-vpn-created.png)
 
 #### Adding a User's Public IP Address to the Allowlist
 
@@ -54,11 +54,11 @@ In order for a user to connect to the Remote Access VPN their public IP address 
 
 In the projects menu, select _Allowed IP addresses_.
 
-![allowed-ip-addresses-wg](/docs/images/allowed-ip-addresses-wg.png)
+![allowed-ip-addresses-wg](/images/allowed-ip-addresses-wg.png)
 
 Add the IP address, remembering to add /32, give it a suitable description and select _Virtual Private Networks_ for the Scope.
 
-![add-vpn-ip](/docs/images/add-vpn-ip.png)
+![add-vpn-ip](/images/add-vpn-ip.png)
 
 The green tick in the above screen-grab means that the required change has been made.
 
@@ -66,7 +66,7 @@ The green tick in the above screen-grab means that the required change has been 
 
 The Sherpa Remote Access VPN is based on WireGuard (<https://www.wireguard.com/>). In order to connect to the WireGuard server in the Sherpa project you will need to create a Peer Connection Profile for each user. To create a profile, ssh into the Remote Access VPN/WireGuard server. You will need the private IP of the WireGuard server which can be found on the Resource Details page as shown below.
 
-![ra-vpn-private-ip](/docs/images/ra-vpn-private-ip.png)
+![ra-vpn-private-ip](/images/ra-vpn-private-ip.png)
 
 From a Sherpa workstation in the same project, you can ssh into the WireGuard server using its private IP address and the private part of the SSH key that was used when creating the project. Using the details from the example above the command would look something like this.
 
@@ -117,26 +117,26 @@ Copy the bit between the **#** characters. You will need that for later.
 
 You will need to download and install a WireGuard client on your local computer. You can select and download your client from <https://www.wireguard.com/install/>. Once installed launch the WireGuard client and select Manage Tunnels. You should see something similar to the screen-grab below. All the following screen grabs are from Mac OS X but the Windows WireGuard client is similar.
 
-![manage-wireguard-tunnels](/docs/images/manage-wireguard-tunnels.png)
+![manage-wireguard-tunnels](/images/manage-wireguard-tunnels.png)
 
 In the bottom left-hand corner select, _Add Empty Tunnel..._
 
-![add-empty-tunnel](/docs/images/add-empty-tunnel.png)
+![add-empty-tunnel](/images/add-empty-tunnel.png)
 
 Replace everything in the window with the contents of the configuration you generated earlier with the `wg-peer` command and press _Save_.
 
-![add-tunnel-details](/docs/images/add-tunnel-details.png)
+![add-tunnel-details](/images/add-tunnel-details.png)
 
 You will now have an new entry in the list of tunnels.
 
-![tunnel-details-added](/docs/images/tunnel-details-added.png)
+![tunnel-details-added](/images/tunnel-details-added.png)
 
 To activate the tunnel press on _Activate_. You have successfully connected if both,
 
 1. The status is showing as Active.
 2. You are receiving and sending data.
 
-![tunnel-activated-and-passing-data](/docs/images/tunnel-activated-and-passing-data.png)
+![tunnel-activated-and-passing-data](/images/tunnel-activated-and-passing-data.png)
 
 To confirm that you are connected, try pinging the private IP of a render node or storage server in your Sherpa project from your local computer.
 
@@ -148,7 +148,7 @@ If the Remote Access VPN is not turned on in Sherpa or you have not added the us
 
 Sadly the failure is not reported in the GUI. The tunnel will appear to be active. The only way you will know that it is not working correctly is that, although data is being sent, no data is being received. See screen-grab below.
 
-![tunnel-failure](/docs/images/tunnel-failure.png)
+![tunnel-failure](/images/tunnel-failure.png)
 
 #### Traffic is being passed but it is erratic
 
