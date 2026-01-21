@@ -1,6 +1,6 @@
 # Sherpa Documentation
 
-This is a minimal Jekyll project configured to build on Netlify.
+This Jekyll project contains Sherpa documentation written in Markdown and is configured to build on GitHub Pages.
 
 ## Local development
 
@@ -13,12 +13,11 @@ bundle exec jekyll serve
 
 Then open http://localhost:4000 in your browser.
 
-## Deploying to Netlify
+## Deploying to GitHub Pages
 
-1. Push this folder to a Git repository (or make it the root of a new repo).
-2. Create a new site on Netlify from that repository.
-3. In Netlify build settings:
-   - **Build command**: `bundle exec jekyll build`
-   - **Publish directory**: `_site`
-4. Deploy the site.
+1. Push this folder to a GitHub repository.
+2. In the repository settings, navigate to **Pages**.
+3. Under **Build and deployment > Source**, select **GitHub Actions**.
+4. The site will automatically build and deploy whenever you push to the `main` branch.
+
 
