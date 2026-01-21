@@ -13,5 +13,7 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-seo-tag"
   gem "jekyll-remote-theme", "~> 0.4.3"
+  gem "jekyll-sass-converter", "~> 2.0"
+  gem "bigdecimal"
 end
 

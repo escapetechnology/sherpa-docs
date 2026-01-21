@@ -16,7 +16,7 @@ plugins:
 
 permalink: pretty
 
-markdown: kramdown
+
 
 exclude:
   - Gemfile
