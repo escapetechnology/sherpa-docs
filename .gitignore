@@ -1,6 +1,6 @@
 # Jekyll and general web development ignores
 _site/
-.cursor/*
+.cursor/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
