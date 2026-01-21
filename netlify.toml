@@ -1,0 +1,8 @@
+[build]
+  command = "bundle exec jekyll build --trace"
+  publish = "_site"
+
+[build.environment]
+  JEKYLL_ENV = "production"
+  BUNDLE_WITHOUT = "development:test"
+

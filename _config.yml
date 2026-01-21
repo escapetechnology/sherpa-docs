@@ -1,0 +1,25 @@
+title: Sherpa Documentation
+description: Documentation site for Sherpa from Escape Technology.
+url: "" # Netlify will configure this
+
+theme: just-the-docs
+
+color_scheme: sherpa
+
+logo: "/assets/images/SherpaBlack.png"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+permalink: pretty
+
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+
