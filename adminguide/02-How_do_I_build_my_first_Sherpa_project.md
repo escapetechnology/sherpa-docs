@@ -10,15 +10,15 @@ The goal of this exercise is to walk you through creating your first Sherpa proj
 
 Log into Sherpa using your admin account details. Select **Projects** in the left hand menu and then click on **Create a new project**.
 
-![Create a new project](/images/create-a-new-project.png)
+![Create a new project](/sherpa-docs/images/create-a-new-project.png)
 
 We will be building a Sherpa project that contains all the required infrastructure for a team of creative professionals. Select **Born In The Cloud**.
 
-![Select-born-in-the-cloud](/images/select-born-in-the-cloud.png)
+![Select-born-in-the-cloud](/sherpa-docs/images/select-born-in-the-cloud.png)
 
 Give the project a **Name** and select the cloud **Provider**.
 
-![Project name and cloud provider](/images/project-name-and-cloud-provider.png)
+![Project name and cloud provider](/sherpa-docs/images/project-name-and-cloud-provider.png)
 
 Currently, Sherpa is capable of managing infrastructure in AWS. In the near future it will be capable of handling infrastructure in other cloud providers.
 
@@ -26,7 +26,7 @@ Sherpa can manage infrastructure in any location run by the cloud provider. By d
 
 **Select a location that is geographically closest to the bulk of your team.**
 
-![Select a location](/images/select-a-location.png)
+![Select a location](/sherpa-docs/images/select-a-location.png)
 
 Choosing a location close to you will minimise the latency and lead to a better user experience. If the locations listed seem too far away for you, we can make other locations available to you.
 
@@ -38,7 +38,7 @@ On this page you will now be presented with a kit of parts; **Workstations**, **
 
 Let's fill in some details for the workstation.
 
-![Workstation build spec](/images/workstation-build-spec.png)
+![Workstation build spec](/sherpa-docs/images/workstation-build-spec.png)
 
 Under **Select build profile** we can see that we are building a Linux workstation. If the **?** icon is clicked/hovered, it will also shows us the versions of the PCoIP agent and Deadline client that will be installed.
 
@@ -51,39 +51,39 @@ Managing costs in a cloud environment is all about **right-sizing**. Given that 
 Let's complete the configuration for the **Shared Storage**, **Render Manager** and **Render Nodes**. Remember, keep everything small.
 Note: The **?** will offer more information about your selection.
 
-![Shared storage](/images/shared-storage.png)
+![Shared storage](/sherpa-docs/images/shared-storage.png)
 
-![Render manager](/images/render-manager.png)
+![Render manager](/sherpa-docs/images/render-manager.png)
 
-![Render node](/images/render-node.png)
+![Render node](/sherpa-docs/images/render-node.png)
 
 The **Weekly Estimate** bar from the bottom of the screen shows the cost estimate, if you click on the **^**, it will expand and you can see a more detailed view.
 
-![Updated estimate](/images/updated-estimate.png)
+![Updated estimate](/sherpa-docs/images/updated-estimate.png)
 
 Go to the bottom of the page and press **Next**.
 
 On the next page make sure you select an SSH key. When we create your admin Sherpa account we create an SSH key for you. SSH keys are used for accessing Linux machines. Creation of SSH keys and their use is covered in another document. For now select the key that appears in your dropdown.
 
-![SSH key selection](/images/ssh-key-selection.png)
+![SSH key selection](/sherpa-docs/images/ssh-key-selection.png)
 
 We will cover **VPNs** and **Snowflakes** in another document. For now press **Next** and confirm your choice.
 
 You will now be directed to **Summary** page. Once your happy with your choices, click **Create**.
 
-![Summary page](/images/summary-page-1.png)
+![Summary page](/sherpa-docs/images/summary-page-1.png)
 
 Your project will initially go into a **Saved** state.
 
-![Project saved](/images/project-saved.png)
+![Project saved](/sherpa-docs/images/project-saved.png)
 
 Shortly after it should go into a **Building** state.
 
-![Project building](/images/project-building.png)
+![Project building](/sherpa-docs/images/project-building.png)
 
 After some time it will finish **Building** and go into a **Built** state.
 
-![Project built](/images/project-built.png)
+![Project built](/sherpa-docs/images/project-built.png)
 
 It takes about 25 minutes to build a Sherpa project containing Linux workstations. Windows workstations take longer to build at about 45 minutes.
 

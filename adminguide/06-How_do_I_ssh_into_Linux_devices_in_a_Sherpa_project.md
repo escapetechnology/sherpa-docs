@@ -12,15 +12,15 @@ An in-depth discussion of SSH keys can be found here <https://www.ssh.com/academ
 
 Normally when a Sherpa account is created for you, a public and private ssh key will have been created. By default the SSH key will have the same name as your Sherpa admin login. You will have been sent the private part of the SSH key and you can find the corresponding public part via the Sherpa GUI, via the **Accounts** section under the **SSH** tab.
 
-![Public SSH key](/images/public-ssh-key.png)
+![Public SSH key](/sherpa-docs/images/public-ssh-key.png)
 
 When you create a Sherpa project you are encouraged to use an SSH key.
 
-![Add an SSH key](/images/add-an-ssh-key.png)
+![Add an SSH key](/sherpa-docs/images/add-an-ssh-key.png)
 
 Click on **Apply an existing key** and select the existing key from the dropdown.
 
-![Apply an existing key](/images/apply-an-existing-key.png)
+![Apply an existing key](/sherpa-docs/images/apply-an-existing-key.png)
 
 When Sherpa builds your infrastructure it will add the selected key to all the Linux resources in your Sherpa project. We will discuss how to create SSH keys should you wish to use your own or if for example you wish to have a separate SSH key per Sherpa project.
 
@@ -54,7 +54,7 @@ The public key needs to be imported into Sherpa so that it can be used when buil
 
 Fill in the **Name** section and copy and paste the contents of the `mynewSSHkey.pub` file into the Public Key section as shown below.
 
-![Add a new key](/images/add-a-new-key.png)
+![Add a new key](/sherpa-docs/images/add-a-new-key.png)
 
 Press **Save**. This new key will now be available in the dropdown menu when you create a new Sherpa project. Any Linux device created wit this SSH key will be accessible using a command similar to the below,
 
