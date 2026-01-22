@@ -8,6 +8,6 @@ nav_order: 9
 
 This is supported but can only be done if the user is not invited to any workstations.
 
-![change a username](/assets/images/change-a-user-name.png)
+![change a username](/sherpa-docs/images/change-a-user-name.png)
 
 Windows 10 only allows usernames of up to 20 characters.

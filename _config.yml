@@ -1,20 +1,22 @@
 title: Sherpa Documentation
 description: Documentation site for Sherpa from Escape Technology.
-url: "" # Netlify will configure this
+url: "" # Update this with your GitHub Pages URL (e.g., https://username.github.io)
+baseurl: "/sherpa-docs" # Update this if your site is in a subdirectory (e.g., /sherpa-docs)
 
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 color_scheme: sherpa
 
-logo: "/assets/images/SherpaBlack.png"
+logo: "/images/SherpaBlack.png"
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 permalink: pretty
 
-markdown: kramdown
+
 
 exclude:
   - Gemfile

@@ -14,19 +14,19 @@ Click on the link below to download the PCoIP Software Client that is compatible
 
 IMPORTANT: Be sure to download the **PCoIP Software Client** as illustrated below and **not** the host or management software.
 
-![Teradici software client](/assets/images/teardici_software_client.png)
+![Teradici software client](/sherpa-docs/images/teardici_software_client.png)
 <!--
 Once you have clicked on the Software Client for your operating system, You will be given the option to download different versions of the software. Please download the default  **Recommended for production** version. Click the **Downloads and scripts** button.
 
-![Downloads and scripts](/assets/images/teradici_downloads_and_scripts.png)
+![Downloads and scripts](/sherpa-docs/images/teradici_downloads_and_scripts.png)
 
 Accept the terms and conditions by scrolling to the bottom of the EULA and then clicking the **Agree** button.
 
-![EULA](/assets/images/teradici_license_agreement.png)
+![EULA](/sherpa-docs/images/teradici_license_agreement.png)
 
 Click on the **Download now** button to download the application installer to your usual download folder.
 
-![Download now](/assets/images/teradici_download_link.png)
+![Download now](/sherpa-docs/images/teradici_download_link.png)
 -->
 Open the downloaded installer and follow the instructions to install the software client on your system.
 
@@ -38,36 +38,36 @@ Open the Teradici PCoIP Software Client, if this is the first time you have open
 
 On first launch you will be presented with a screen asking for a **Host Address or Code** and a **Connection Name**.
 
-![Client connection empty](/assets/images/client_connection_empty.jpeg)
+![Client connection empty](/sherpa-docs/images/client_connection_empty.jpeg)
 
 In your web browser navigate to the details of the remote workstation you want to connect to and locate the Connect to IP address. This is the address that will be used by the Teradici PCoIP Software Client to connect to your remote workstation.
 
-![Workstation details](/assets/images/workstation_details.jpeg)
+![Workstation details](/sherpa-docs/images/workstation_details.jpeg)
 
 You can copy the **Connect to** IP address using the copy icon that appears next to the address on roll over.
 
 This **Connect to** address should then be pasted into the **Host Address or Code** field on the Teradici PCoIP Software Client. Give this connection a name you will recognise in the **Connection Name** field (we recommend using the Sherpa project name or something similar).
 
-![Client connection completed](/assets/images/client_connection_comnpleted.jpeg)
+![Client connection completed](/sherpa-docs/images/client_connection_comnpleted.jpeg)
 
 Click the **SAVE** button and then the **NEXT** button.
 
 All being well, you will be prompted for your Sherpa **username** and **password**.
 
-![Client username and password](/assets/images/client_username_and_password.jpeg)
+![Client username and password](/sherpa-docs/images/client_username_and_password.jpeg)
 
 Your **username** and **password** are the ones you supplied when signing up on the Sherpa website. Note that your username is **not** your email. If you have forgotten your username or password you can recover them using the Sherpa website.
 
 Click **LOGIN** and The Teradici PCoIP Software Client will connect to your remote workstation. If you have been invited to multiple workstations you will be presented with a list. If you have only been invited to one workstation it will log you straight in.
 
-![Linux workstation](/assets/images/linux_workstation.jpeg)
+![Linux workstation](/sherpa-docs/images/linux_workstation.jpeg)
 
 The above shows a successful connection to a Linux Sherpa workstation.
 
 ## Subsequent connections to your workstation
 Because you saved your connection, it will be available to you the next time you launch the Teradici software.
 
-![Client saved connection](/assets/images/client_saved_connection.jpeg)
+![Client saved connection](/sherpa-docs/images/client_saved_connection.jpeg)
 
 Simply click on the Connection Name you chose for your project/workstation and enter your **username** and **password** when prompted. If you have been invited to multiple workstations you will be presented with a list. If you have only been invited to one workstation it will log you straight in.
 

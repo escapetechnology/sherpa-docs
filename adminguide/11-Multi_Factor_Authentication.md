@@ -14,22 +14,22 @@ To enable MFA for a Sherpa project, go to the Project Detail page.
 2. Tick *Enable One Time Password authentication*
 3. Press *Update Details*
 
-![enable-otp](/assets/images/enable-otp.png)
+![enable-otp](/sherpa-docs/images/enable-otp.png)
 
 The user logs in using the PCoIP client as normal.
 
-![otp-phase1](/assets/images/otp-phase1.png)
+![otp-phase1](/sherpa-docs/images/otp-phase1.png)
 
 With OTP/MFA enabled the user will be presented with a second screen requesting the input of a verification code.
 
-![otp-phase2](/assets/images/otp-phase2.png)
+![otp-phase2](/sherpa-docs/images/otp-phase2.png)
 
 The verification coed is sent to the email address associated with the user's Sherpa login. The email will look similar to the below.
 
-![otp-email](/assets/images/otp-email.png)
+![otp-email](/sherpa-docs/images/otp-email.png)
 
 Paste the verification code from the email into the OTP box and then press LOGIN.
 
-![otp-phase3](/assets/images/otp-phase3.png)
+![otp-phase3](/sherpa-docs/images/otp-phase3.png)
 
 You will then be presented with a list of workstations as normal.

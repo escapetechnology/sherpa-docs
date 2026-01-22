@@ -33,7 +33,7 @@ If you are having difficulties connecting to your workstation with the Teradici 
 <!-- /TOC -->
 ## Insecure connection
 
-![Connect Insecurely](/assets/images/connect-insecurely.png)
+![Connect Insecurely](/sherpa-docs/images/connect-insecurely.png)
 
 The above is slightly misleading. Because we are using an IP address to connect to the Display Gateway we can not use a trusted certificate authority to generate the SSL certificate that is used to encrypt the PCoIP traffic. We are using our own self-signed certificate. This is considered to be "insecure" as the issuer of the certificate, us, has not been verified by a third party. Rest assured, your PCoIP session is encrypted and secure.
 
@@ -45,7 +45,7 @@ You can stop the message from popping up by setting `security_mode = 0` in the P
 
 ## Unable to connect. Please verify the address or registration code and try again.
 
-![Unable to connect](/assets/images/unable-to-connect.png)
+![Unable to connect](/sherpa-docs/images/unable-to-connect.png)
 
 The above issue may be caused by a few possible scenarios.
 
@@ -63,25 +63,25 @@ Certain ports are required to be open to allow a successful PCoIP connection. So
 
 ## The network connection has been lost
 
-![The network connection has been lost](/assets/images/the-network-connection-has-been-lost.png)
+![The network connection has been lost](/sherpa-docs/images/the-network-connection-has-been-lost.png)
 
 Port 4172:TCP is being blocked. You should seek advice form the administrator of your local network.
 
 ## This desktop has no sources available or it has timed out
 
-![This desktop has no sources available](/assets/images/this-desktop-has-no-sources-available.png)
+![This desktop has no sources available](/sherpa-docs/images/this-desktop-has-no-sources-available.png)
 
 Port UDP:4172 is being blocked. You should seek advice form the administrator of your local network.
 
 ## You are not entitled to any resource on this domain
 
-![You are not entitled to any resource](/assets/images/you_are_not_entitled.jpeg)
+![You are not entitled to any resource](/sherpa-docs/images/you_are_not_entitled.jpeg)
 
 This rather complicated sounding error message probably means that somebody else is logged into the workstation you are trying to access.
 
 ## Authentication failed - unknown username or password
 
-![Authentication failed](/assets/images/authentication-failed.png)
+![Authentication failed](/sherpa-docs/images/authentication-failed.png)
 
 ### Have you signed up to Sherpa?
 
@@ -93,33 +93,33 @@ You use the same username and password for the PCoIP client as you would for log
 
 ## Failed to establish a remote session due to invalid username, password, and/or domain
 
-![No local account on workstation](/assets/images/no-local-account-on-workstation.png)
+![No local account on workstation](/sherpa-docs/images/no-local-account-on-workstation.png)
 
 You have successfully logged into the Display Gateway but your user does not exist on the workstation. This can sometimes happen if you try to connect to a workstation quickly after having accepted the invite. Please wait 5 minutes and try again. If that fails, turn off the workstation, wait 5 minutes, turn it back on again, wait 5 minutes and then try connecting again.
 
 ## You have not been invited to any workstations
 
-![Not been invited](/assets/images/not-been-invited.png)
+![Not been invited](/sherpa-docs/images/not-been-invited.png)
 
 You need to be invited to a workstation before you can access a workstation in a Sherpa project. Please contact your Sherpa admin and get yourself invited.
 
 ## The workstation was stopped but has now been started
 
-![The workstation was stopped](/assets/images/the-workstation-was-stopped.png)
+![The workstation was stopped](/sherpa-docs/images/the-workstation-was-stopped.png)
 
 This is normal. If your workstation is off it will be turned on for you. Wait a few minutes and try again to connect.
 
 ## The workstation is in a non-startable state
 
-![Non-startable state](/assets/images/non-startable-state.png)
+![Non-startable state](/sherpa-docs/images/non-startable-state.png)
 
 You have tried to connect to a workstation whilst it was in the process of shutting down. Please wait a few minutes and try again.
 
 ## Error 6609 and Error 6405
 
-![Error 6609](/assets/images/error-6609.png)
+![Error 6609](/sherpa-docs/images/error-6609.png)
 
-![Error 6405](/assets/images/error-6405.png)
+![Error 6405](/sherpa-docs/images/error-6405.png)
 
 Both the above errors indicate that the workstation wasn't quite ready to accept your connection. Please wait a few minutes and try again. If the problem persists, turn off the workstation, wait 5 minutes, turn the workstation back on again, wait 5 minutes and then try to connect.
 
@@ -127,13 +127,13 @@ Both the above errors indicate that the workstation wasn't quite ready to accept
 
 If you saved the connection it will have remembered which workstation you were connect to.
 
-![Delete saved connection](/assets/images/delete-saved-connection.png)
+![Delete saved connection](/sherpa-docs/images/delete-saved-connection.png)
 
 Please delete the existing saved connection and create a new one. Next time you try to connect you should be presented with a list of workstations that you have been invited to.
 
 ## No available licenses
 
-![No available licenses](/assets/images/no-available-licenses.png)
+![No available licenses](/sherpa-docs/images/no-available-licenses.png)
 
 This is caused by your workstation not being able to contact the license server. This can be caused by someone changing the DNS configuration on your workstation. Or it might be that internet access from your workstation has been disabled.
 
@@ -141,6 +141,6 @@ There are some commands that can be run on your workstation to work out what is 
 
 ## Command failed due to a PCoIP Security Gateway failure
 
-![Error 6610](/assets/images/error_6610.png)
+![Error 6610](/sherpa-docs/images/error_6610.png)
 
 You will see the above error message if the SSL certificate has expired on the Display Gateway. The quickest way to fix this is to get your Sherpa administrator to build a new Display Gateway and delete the old one. You will then need to use the "Connect to" IP address of the new Display Gateway to connect to your workstation.
