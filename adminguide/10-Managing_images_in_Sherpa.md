@@ -28,7 +28,7 @@ From the left-hand menu select **Images**.
 You will be presented with a list of images.
 ![image-list](/sherpa-docs/images/image-list.png)
 
-In the above example we can see that our recent request is in a saved state as indicated by the blue tick and as yet is not being actioned. If the image is being worked on it will be shown as being in a building state as indicated by a yellow tick. Once the image is ready to be used it will move to a built state as indicated by a green tick. Golden image are distinguish from normal build profiles by the inclusion of a golden-yellow badge.
+In the above example we can see that our recent request is in a saved state as indicated by the blue tick and as yet is not being actioned. If the image is being worked on it will be shown as being in a building state as indicated by a yellow tick. Once the image is ready to be used it will move to a built state as indicated by a green tick. Golden images are distinguished from normal build profiles by the inclusion of a golden-yellow badge.
 
 ## Using an image
 
@@ -48,7 +48,7 @@ You can change the date range to show historic costs for an image.
 
 ![image-historic-costs](/sherpa-docs/images/image-historic-costs.jpg)
 
-## Checking the overall cos of images in the cost reports
+## Checking the overall cost of images in the cost reports
 
 The costs associated with images is displayed in the weekly cost reports.
 

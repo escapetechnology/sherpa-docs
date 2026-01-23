@@ -56,7 +56,7 @@ Fill in the **Name** section and copy and paste the contents of the `mynewSSHkey
 
 ![Add a new key](/sherpa-docs/images/add-a-new-key.png)
 
-Press **Save**. This new key will now be available in the dropdown menu when you create a new Sherpa project. Any Linux device created wit this SSH key will be accessible using a command similar to the below,
+Press **Save**. This new key will now be available in the dropdown menu when you create a new Sherpa project. Any Linux device created with this SSH key will be accessible using a command similar to the below,
 
 ```bash
 ssh -i <PrivateSSHkeyFile> <SherpaAdminUsername>@<PrivateIPofLinuxServer>

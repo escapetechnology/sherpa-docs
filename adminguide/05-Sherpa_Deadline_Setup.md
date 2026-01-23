@@ -27,7 +27,7 @@ nav_order: 5
 
 <!-- /TOC -->
 
-Deadline is a fully feature render manager. Full documentation can be found at the following link.
+Deadline is a fully featured render manager. Full documentation can be found at the following link.
 <https://docs.thinkboxsoftware.com/>
 The purpose of the documentation below is to cover configuration of Deadline in a Sherpa project.
 
@@ -37,7 +37,7 @@ For security reasons, Sherpa restricts how different resource types in a Sherpa 
 
 ### Deadline Super User Mode
 
-In order to make configuration change in Deadline you need to select _Tools -> Super User Mode._
+In order to make configuration changes in Deadline you need to select _Tools -> Super User Mode._
 
 ![deadline-super-user-mode](/sherpa-docs/images/deadline-super-user-mode.png)
 
@@ -185,7 +185,7 @@ B. The node has successfully checked in with the Sherpa Event plugin and its She
 C. The render node has been idle for 1.6 minutes.
 ![idle-shutdown-01c](/sherpa-docs/images/idle-shutdown-01c.png)
 
-In the example below I have set the Idle Shutdown time to be 2 minute.
+In the example below I have set the Idle Shutdown time to be 2 minutes.
 ![idle-shutdown-02](/sherpa-docs/images/idle-shutdown-02.png)
 
 Hence after 2.5 minutes the render node has been switched off and is now being reported as _Timed Out_.

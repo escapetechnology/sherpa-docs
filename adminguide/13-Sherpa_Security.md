@@ -12,7 +12,7 @@ Sherpa projects are built prioritising security with a principle of least privil
 
 You will notice in the Sherpa GUI that machines are separated by functional type: workstations, storage etc.
 
-Each Sherpa project has its own virtual firewall and within each project, each functional type is surrounded by ts own virtual firewall. Only the bare minimum is allowed in-bound on each firewall to satisfy required functionality.
+Each Sherpa project has its own virtual firewall and within each project, each functional type is surrounded by its own virtual firewall. Only the bare minimum is allowed in-bound on each firewall to satisfy required functionality.
 
 ### File server access
 
@@ -22,7 +22,7 @@ For example workstations can access the shared storage via either NFS (Linux fil
 
 This principle of least privileges may cause some confusion. For example if you were to install a web server, requiring access on port 80, on one of the storage servers, this web server would not be accessible to the workstations. Port 80 is not allowed inbound by default to the storage servers.
 
-If you wish to add additional services to your Sherpa project we can assist you in examining the requirements and only open up what in minimally required.
+If you wish to add additional services to your Sherpa project we can assist you in examining the requirements and only open up what is minimally required.
 
 ### Workstation access via PCoIP
 
@@ -30,7 +30,7 @@ Access to the Display Gateways is controlled by an IP allow-list. IPs on the all
 
 ![display-gateway-inbound-rules](/sherpa-docs/images/display-gateway-inbound-rules.png)
 
-Continuing the idea of strict security, within the Sherpa project the workstations only allow inbound traffic from the Display GAteway via PCoIP (port 4172).
+Continuing the idea of strict security, within the Sherpa project the workstations only allow inbound traffic from the Display Gateway via PCoIP (port 4172).
 
 ![workstation-inbound-rules](/sherpa-docs/images/workstation-inbound-rules.png)
 

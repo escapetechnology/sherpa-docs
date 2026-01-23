@@ -50,7 +50,7 @@ You will find the newly created Remote Access VPN under the _Core Infrastructure
 
 #### Adding a User's Public IP Address to the Allowlist
 
-In order for a user to connect to the Remote Access VPN their public IP address needs to be added to the allowlist for the project. They should be ability to supply their public IP address by opening up a web browser on their local machine and typing in <https://www.whatsmyip.org/>. Let's imagine that this returns 86.4.111.214.
+In order for a user to connect to the Remote Access VPN their public IP address needs to be added to the allowlist for the project. They should be able to supply their public IP address by opening up a web browser on their local machine and typing in <https://www.whatsmyip.org/>. Let's imagine that this returns 86.4.111.214.
 
 In the projects menu, select _Allowed IP addresses_.
 
@@ -87,7 +87,7 @@ Hence to add a profile for the user aurelioc you could use the following command
 # sudo /etc/wireguard/wg-peer -a aurelioc
 ```
 
-This will rerturn something like the following.
+This will return something like the following.
 
 ```text
 Creating profile aurelioc...
@@ -127,7 +127,7 @@ Replace everything in the window with the contents of the configuration you gene
 
 ![add-tunnel-details](/sherpa-docs/images/add-tunnel-details.png)
 
-You will now have an new entry in the list of tunnels.
+You will now have a new entry in the list of tunnels.
 
 ![tunnel-details-added](/sherpa-docs/images/tunnel-details-added.png)
 
@@ -152,7 +152,7 @@ Sadly the failure is not reported in the GUI. The tunnel will appear to be activ
 
 #### Traffic is being passed but it is erratic
 
-You must not share connection profiles between users or computers. Each user/computer needs to have their own connection profile. If two people are using teh same profile then half the traffic will go to one person and half the traffic will go to the other person.
+You must not share connection profiles between users or computers. Each user/computer needs to have their own connection profile. If two people are using the same profile then half the traffic will go to one person and half the traffic will go to the other person.
 
 ## Site-To-Site VPN
 

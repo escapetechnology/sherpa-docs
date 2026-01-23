@@ -8,7 +8,7 @@ nav_order: 5
 You will need to install some software to access your workstation.
 
 ## Installing the Teradici Software Client
-Click on the link below to download the PCoIP Software Client that is compatible with your operating system (available for Windows, OSX and Liunx).
+Click on the link below to download the PCoIP Software Client that is compatible with your operating system (available for Windows, macOS and Linux).
 
 <https://docs.teradici.com/find/product/cloud-access-software>
 
@@ -48,7 +48,7 @@ You can copy the **Connect to** IP address using the copy icon that appears next
 
 This **Connect to** address should then be pasted into the **Host Address or Code** field on the Teradici PCoIP Software Client. Give this connection a name you will recognise in the **Connection Name** field (we recommend using the Sherpa project name or something similar).
 
-![Client connection completed](/sherpa-docs/images/client_connection_comnpleted.jpeg)
+![Client connection completed](/sherpa-docs/images/client_connection_completed.jpeg)
 
 Click the **SAVE** button and then the **NEXT** button.
 

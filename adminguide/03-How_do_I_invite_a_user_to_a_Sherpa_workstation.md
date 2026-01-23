@@ -106,12 +106,12 @@ An email will be sent to the address you entered containing a link inviting the 
 
 Invites have four main states.
 
-State    | Description
----------|-----------------------------------------------------------------------------------------------------------
-<span style="color:yellow">Pending</span> | The invite has been sent to the user but has not yet been **Accepted** or **Rejected**.
-<span style="color:green">Accepted</span> | The user has **Accepted** the invite and an account has been/will be created on the workstation.
-<span style="color:red">Rejected</span> | The user has **Rejected** the invite and no account was created on the workstation.
-<span style="color:red">Expired</span> | The user did not **Accept** or **Reject** the invite within 48 hours and the invite can no longer be used.
+| State                                     | Description                                                                                                |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| <span style="color:yellow">Pending</span> | The invite has been sent to the user but has not yet been **Accepted** or **Rejected**.                    |
+| <span style="color:green">Accepted</span> | The user has **Accepted** the invite and an account has been/will be created on the workstation.           |
+| <span style="color:red">Rejected</span>   | The user has **Rejected** the invite and no account was created on the workstation.                        |
+| <span style="color:red">Expired</span>    | The user did not **Accept** or **Reject** the invite within 48 hours and the invite can no longer be used. |
 
 You can check the status of an invite in a few ways.
 
@@ -127,7 +127,7 @@ You can also view the status of an invite by hovering over the status dot next t
 
 ## Removing a user from a workstation
 
-Navigate to the **Resource Details** page of the workstation who's user you wish to remove.
+Navigate to the **Resource Details** page of the workstation whose user you wish to remove.
 
 Scroll down to the **User** section.
 

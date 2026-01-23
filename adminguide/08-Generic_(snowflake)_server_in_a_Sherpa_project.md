@@ -16,6 +16,6 @@ Below is an example of a project in which I have built a license server and a mo
 
 ![generic-servers](/sherpa-docs/images/generic-servers.png)
 
-If you have created a generic server that is providing a service that you need to access from your home, all you have to do is to add you IP address to the list as highlighted in red below.
+If you have created a generic server that is providing a service that you need to access from your home, all you have to do is to add your IP address to the list as highlighted in red below.
 
 ![generic-resource-allow-list](/sherpa-docs/images/generic-resource-allow-list.png)

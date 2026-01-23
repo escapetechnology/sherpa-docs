@@ -24,7 +24,7 @@ With OTP/MFA enabled the user will be presented with a second screen requesting 
 
 ![otp-phase2](/sherpa-docs/images/otp-phase2.png)
 
-The verification coed is sent to the email address associated with the user's Sherpa login. The email will look similar to the below.
+The verification code is sent to the email address associated with the user's Sherpa login. The email will look similar to the below.
 
 ![otp-email](/sherpa-docs/images/otp-email.png)
 

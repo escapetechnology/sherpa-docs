@@ -17,11 +17,11 @@ Either click on the **Recover username** link on the Sherpa website login page o
 
 ## Recovering Your Password
 
-If you have forgotten your password name you will have to reset it. To begin the process either click on the **Recover password** link on the Sherpa website login page or navigate to the page directly using the link below.
+If you have forgotten your password you will have to reset it. To begin the process either click on the **Recover password** link on the Sherpa website login page or navigate to the page directly using the link below.
 
 <http://sherpa.escape-technology.com/password/reset>
 
-![recover-yopur-password](/sherpa-docs/images/recover-yopur-password.png)
+![recover-your-password](/sherpa-docs/images/recover-your-password.png)
 
 Once you have submitted the form we will send a reset link to your email address. Clicking on the reset link will take you to a form where you can update your password to one you can remember.
 

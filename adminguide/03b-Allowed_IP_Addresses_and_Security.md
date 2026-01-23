@@ -30,7 +30,7 @@ Similarly /16 is even more permissive. If the user's IP address keeps changing b
 
 #### 0.0.0.0/0
 
-In extreme circumstances it may be necessary to allow access to the Sherpa project from anywhere. In that case you can use 0.0.0.0/0 as the IP address. This allow-all IP address can only be applied to a Display Gateway (see the scope session below). We strongly advise not using this IP as it opens up the Display Gateway to a potentially infinite attack vector.
+In extreme circumstances it may be necessary to allow access to the Sherpa project from anywhere. In that case you can use 0.0.0.0/0 as the IP address. This allow-all IP address can only be applied to a Display Gateway (see the scope section below). We strongly advise not using this IP as it opens up the Display Gateway to a potentially infinite attack vector.
 
 If you have to use 0.0.0.0/0 we would recommend turning on **Enable One Time Password** authentication on the Sherpa project. This will require the user to type in their username, their password and a six digit number that is emailed to the email address they used when signing up to Sherpa.
 

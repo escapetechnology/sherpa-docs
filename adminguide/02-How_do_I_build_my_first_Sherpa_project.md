@@ -8,7 +8,7 @@ nav_order: 2
 
 The goal of this exercise is to walk you through creating your first Sherpa project. During the process we will bring to light various decision points and best practices.
 
-Log into Sherpa using your admin account details. Select **Projects** in the left hand menu and then click on **Create a new project**.
+Log into Sherpa using your admin account details. Select **Projects** in the left-hand menu and then click on **Create a new project**.
 
 ![Create a new project](/sherpa-docs/images/create-a-new-project.png)
 
@@ -40,11 +40,11 @@ Let's fill in some details for the workstation.
 
 ![Workstation build spec](/sherpa-docs/images/workstation-build-spec.png)
 
-Under **Select build profile** we can see that we are building a Linux workstation. If the **?** icon is clicked/hovered, it will also shows us the versions of the PCoIP agent and Deadline client that will be installed.
+Under **Select build profile** we can see that we are building a Linux workstation. If the **?** icon is clicked/hovered, it will also show us the versions of the PCoIP agent and Deadline client that will be installed.
 
 The pricing is shown as a running total on the bar at the bottom of the screen in a nice simple fashion. In the screen-grab above, we can see that the **Workstation** will cost us £42.87 if we use it for 50 hours a week. The estimate also shows a **Display Gateway**. There is one **Display Gateway** for each Sherpa project. All artists connect through the **Display Gateway** in order to gain access to their workstations. **If the Display Gateway is off, no-one will be able to access their workstations.**
 
-If a workstation, is off, there is still a small charge associated with things like software licensing costs and storage. If you wish to pay nothing for your workstation you should delete it. Generally speaking the cost of a workstation that isn't being used so generally it is OK to leave it sitting there and switched off.
+If a workstation is off, there is still a small charge associated with things like software licensing costs and storage. If you wish to pay nothing for your workstation you should delete it. Generally speaking the cost of a workstation that isn't being used so generally it is OK to leave it sitting there and switched off.
 
 Managing costs in a cloud environment is all about **right-sizing**. Given that this is your first Sherpa project and you are just experimenting, keep everything small.
 
@@ -69,7 +69,7 @@ On the next page make sure you select an SSH key. When we create your admin Sher
 
 We will cover **VPNs** and **Snowflakes** in another document. For now press **Next** and confirm your choice.
 
-You will now be directed to **Summary** page. Once your happy with your choices, click **Create**.
+You will now be directed to **Summary** page. Once you're happy with your choices, click **Create**.
 
 ![Summary page](/sherpa-docs/images/summary-page-1.png)
 

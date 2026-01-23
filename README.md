@@ -16,7 +16,7 @@ git checkout -b my-branch
 
 You can do a similar thing using VSCode or SourceTree if you are more comfortable with a GUI.
 
-Once you have created a branch, you can now edit the Markdown files. When you have finished, push your changes to GitHub and the publicly available site will automatically rebuilt when you your changes have been approved and merged into the main branch. 
+Once you have created a branch, you can now edit the Markdown files. When you have finished, push your changes to GitHub and the publicly available site will automatically rebuilt when your changes have been approved and merged into the main branch. 
 
 ### Building the site
 

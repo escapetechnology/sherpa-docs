@@ -80,7 +80,7 @@ Building
 Built
 ![new-display-gateway-built](/sherpa-docs/images/new-display-gateway-built.png)
 
-Once built, go to the resource details page and check the build profile details. In our example below, the Display Gateway software has been updated from 2023.04 to 2024.03.4 and the host operating system has been upgraded fro Rock 8.8 to Rocky 8.9.
+Once built, go to the resource details page and check the build profile details. In our example below, the Display Gateway software has been updated from 2023.04 to 2024.03.4 and the host operating system has been upgraded from Rocky 8.8 to Rocky 8.9.
 
 The SSL certificate will be new and will be valid for one year from the date of creation.
 
@@ -88,7 +88,7 @@ The SSL certificate will be new and will be valid for one year from the date of 
 
 The new Display Gateway will have a new **Connect to:** IP address. You will need to communicate this new information to your artists/users as they will need to start using this new IP address to connect to the Display Gateway and their workstations.
 
-You can run both Display Gateways at he same time. The desire however is to migrate your users off the old Display Gateway and on to the new Display Gateway.
+You can run both Display Gateways at the same time. The desire however is to migrate your users off the old Display Gateway and on to the new Display Gateway.
 
 ### Retiring the old Display Gateway
 

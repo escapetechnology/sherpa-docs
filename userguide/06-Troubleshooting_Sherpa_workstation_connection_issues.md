@@ -26,7 +26,7 @@ If you are having difficulties connecting to your workstation with the Teradici 
   - [The workstation was stopped but has now been started](#the-workstation-was-stopped-but-has-now-been-started)
   - [The workstation is in a non-startable state](#the-workstation-is-in-a-non-startable-state)
   - [Error 6609 and Error 6405](#error-6609-and-error-6405)
-  - [Multiple invites but I automatically get connect to the same workstation](#multiple-invites-but-i-automatically-get-connect-to-the-same-workstation)
+  - [Multiple invites but I automatically get connected to the same workstation](#multiple-invites-but-i-automatically-get-connect-to-the-same-workstation)
   - [No available licenses](#no-available-licenses)
   - [Command failed due to a PCoIP Security Gateway failure](#command-failed-due-to-a-pcoip-security-gateway-failure)
 
@@ -35,7 +35,7 @@ If you are having difficulties connecting to your workstation with the Teradici 
 
 ![Connect Insecurely](/sherpa-docs/images/connect-insecurely.png)
 
-The above is slightly misleading. Because we are using an IP address to connect to the Display Gateway we can not use a trusted certificate authority to generate the SSL certificate that is used to encrypt the PCoIP traffic. We are using our own self-signed certificate. This is considered to be "insecure" as the issuer of the certificate, us, has not been verified by a third party. Rest assured, your PCoIP session is encrypted and secure.
+The above is slightly misleading. Because we are using an IP address to connect to the Display Gateway we cannot use a trusted certificate authority to generate the SSL certificate that is used to encrypt the PCoIP traffic. We are using our own self-signed certificate. This is considered to be "insecure" as the issuer of the certificate, us, has not been verified by a third party. Rest assured, your PCoIP session is encrypted and secure.
 
 You can stop the message from popping up by setting `security_mode = 0` in the PCoIP software client as described in the (Windows/Mac/Linux) documentation below.
 
@@ -65,13 +65,13 @@ Certain ports are required to be open to allow a successful PCoIP connection. So
 
 ![The network connection has been lost](/sherpa-docs/images/the-network-connection-has-been-lost.png)
 
-Port 4172:TCP is being blocked. You should seek advice form the administrator of your local network.
+Port 4172:TCP is being blocked. You should seek advice from the administrator of your local network.
 
 ## This desktop has no sources available or it has timed out
 
 ![This desktop has no sources available](/sherpa-docs/images/this-desktop-has-no-sources-available.png)
 
-Port UDP:4172 is being blocked. You should seek advice form the administrator of your local network.
+Port UDP:4172 is being blocked. You should seek advice from the administrator of your local network.
 
 ## You are not entitled to any resource on this domain
 
@@ -123,9 +123,9 @@ You have tried to connect to a workstation whilst it was in the process of shutt
 
 Both the above errors indicate that the workstation wasn't quite ready to accept your connection. Please wait a few minutes and try again. If the problem persists, turn off the workstation, wait 5 minutes, turn the workstation back on again, wait 5 minutes and then try to connect.
 
-## Multiple invites but I automatically get connect to the same workstation
+## Multiple invites but I automatically get connected to the same workstation
 
-If you saved the connection it will have remembered which workstation you were connect to.
+If you saved the connection it will have remembered which workstation you were connected to.
 
 ![Delete saved connection](/sherpa-docs/images/delete-saved-connection.png)
 
