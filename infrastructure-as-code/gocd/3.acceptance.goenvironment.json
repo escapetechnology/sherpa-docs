@@ -1,0 +1,5 @@
+{
+  "format_version": 2,
+  "name": "acceptance",
+  "pipelines": [ "acceptance_sherpa-docs_dns" ]
+}

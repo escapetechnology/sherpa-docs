@@ -1,0 +1,48 @@
+{
+  "format_version": 2,
+  "name": "acceptance_sherpa-docs_dns",
+  "labeltemplate": "${upstream}",
+  "lock_behavior": "lockOnFailure",
+  "template": "acceptance_dns",
+  "parameters": [
+    {
+      "name": "ARTIFACT_PROJECT_NAME",
+      "value": "dns"
+    },
+    {
+      "name": "PROJECT_NAME",
+      "value": "sherpa-docs_dns"
+    },
+    {
+      "name": "PROJECT_LANGUAGE",
+      "value": "terraform"
+    },
+    {
+      "name": "IAC_TOOL",
+      "value": "terraform"
+    }
+  ],
+  "environment_variables": [
+    {
+      "name": "BACKEND_KEY",
+      "value": "dns.sherpa-docs.acceptance"
+    },
+    {
+      "name": "RECORD_NAME",
+      "value": "acceptance.sherpa.docs.escape-technology.com"
+    },
+    {
+      "name": "TF_LOG",
+      "value": "INFO"
+    }
+  ],
+  "group" : "acceptance",
+  "materials": [
+    {
+      "name": "upstream",
+      "type": "dependency",
+      "pipeline": "build_dns",
+      "stage": "publish"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "format_version": 2,
+  "name": "rehearsal_sherpa-docs_dns",
+  "labeltemplate": "${upstream}",
+  "lock_behavior": "lockOnFailure",
+  "template": "rehearsal_dns",
+  "parameters": [
+    {
+      "name": "ARTIFACT_PROJECT_NAME",
+      "value": "dns"
+    },
+    {
+      "name": "PROJECT_NAME",
+      "value": "sherpa-docs_dns"
+    },
+    {
+      "name": "PROJECT_LANGUAGE",
+      "value": "terraform"
+    },
+    {
+      "name": "IAC_TOOL",
+      "value": "terraform"
+    }
+  ],
+  "environment_variables": [
+    {
+      "name": "BACKEND_KEY",
+      "value": "dns.sherpa-docs.rehearsal"
+    },
+    {
+      "name": "RECORD_NAME",
+      "value": "rehearsal.sherpa.docs.escape-technology.com"
+    },
+    {
+      "name": "TF_LOG",
+      "value": "INFO"
+    }
+  ],
+  "group" : "rehearsal",
+  "materials": [
+    {
+      "name": "upstream",
+      "type": "dependency",
+      "pipeline": "build_dns",
+      "stage": "publish"
+    },
+    {
+      "name": "sherpa-docs_dns.union",
+      "type": "dependency",
+      "pipeline": "union_sherpa-docs_dns",
+      "stage": "deploy"
+    }
+  ]
+}
