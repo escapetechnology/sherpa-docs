@@ -34,6 +34,22 @@
     {
       "name": "TF_LOG",
       "value": "INFO"
+    },
+    {
+      "name": "NAMES_TXT",
+      "value": "_github-pages-challenge-escapetechnology.sherpa.docs.escape-technology.com"
+    },
+    {
+      "name": "RECORDS_TXT",
+      "value": "30427cdd93ac0d651ffb8310ec1c88"
+    },
+    {
+      "name": "NAMES_CNAME",
+      "value": "www"
+    },
+    {
+      "name": "RECORDS_CNAME",
+      "value": "escapetechnology.github.io"
     }
   ],
   "group" : "delivered",
