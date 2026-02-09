@@ -36,6 +36,14 @@
       "value": "INFO"
     },
     {
+      "name": "NAMES_A",
+      "value": ""
+    },
+    {
+      "name": "RECORDS_A",
+      "value": "185.199.108.153,185.199.109.153,185.199.110.153,185.199.111.153"
+    },
+    {
       "name": "NAMES_TXT",
       "value": "_github-pages-challenge-escapetechnology.sherpa.docs.escape-technology.com"
     },
