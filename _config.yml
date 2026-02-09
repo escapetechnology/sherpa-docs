@@ -1,7 +1,7 @@
 title: Sherpa Documentation
 description: Documentation site for Sherpa from Escape Technology.
 url: "" # Update this with your GitHub Pages URL (e.g., https://username.github.io)
-baseurl: "/sherpa-docs" # Update this if your site is in a subdirectory (e.g., /sherpa-docs)
+baseurl: "" # Update this if your site is in a subdirectory (e.g., /sherpa-docs)
 
 remote_theme: just-the-docs/just-the-docs
 
