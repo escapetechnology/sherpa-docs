@@ -38,11 +38,11 @@ Before inviting a user to a workstation, you need to add their IP address to the
 
 In the dropdown menu at the top right of the **Project** page select **Allowed IP addresses**.
 
-![Allowed IP addresses](/sherpa-docs/images/allowed-ip-addresses.png)
+![Allowed IP addresses]({{config.baseurl}}/images/allowed-ip-addresses.png)
 
 A new page will open.
 
-![Project allow list](/sherpa-docs/images/project-allow-list.png)
+![Project allow list]({{config.baseurl}}/images/project-allow-list.png)
 
 Note the white tick in the green circle next to the first IP address in the list. This indicates that the IP address has been successfully built into the Sherpa Display Gateway firewall rules for this project.
 
@@ -52,19 +52,19 @@ A new line will be added to the Allowlist. Fill in the user’s IP address follo
 
 You can add more than one entry at once by clicking the Add an IP Address button again.
 
-![Adding an entry in the allow list](/sherpa-docs/images/adding-an-entry-in-the-allow-list.png)
+![Adding an entry in the allow list]({{config.baseurl}}/images/adding-an-entry-in-the-allow-list.png)
 
 Once you are happy with the entries you are adding click the **Apply Changes** button. Then confirm you want to apply your changes. The request to add the IP address will initially go into a _Saved_ state.
 
-![IP add request saved](/sherpa-docs/images/ip-add-request-saved.png)
+![IP add request saved]({{config.baseurl}}/images/ip-add-request-saved.png)
 
 Followed shortly by a _Building_ state.
 
-![IP add request building](/sherpa-docs/images/ip-add-request-building.png)
+![IP add request building]({{config.baseurl}}/images/ip-add-request-building.png)
 
 And finally a _Built_ state.
 
-![IP add request built](/sherpa-docs/images/ip-add-request-built.png)
+![IP add request built]({{config.baseurl}}/images/ip-add-request-built.png)
 
 Only when there is a **green tick** next to an IP address has it successfully been added to the Sherpa project's allow list.
 
@@ -72,7 +72,7 @@ Only when there is a **green tick** next to an IP address has it successfully be
 
 IP Addresses can be edited or removed from the list of **Allowed IP Addresses** using the drop down menu at the end of each line. Just remember that you will need to press the Apply button again once you are happy with your updates in order to save your changes.
 
-![Editing the allow list](/sherpa-docs/images/editing-the-allow-list.png)
+![Editing the allow list]({{config.baseurl}}/images/editing-the-allow-list.png)
 
 ## Inviting a user to a workstation
 
@@ -84,11 +84,11 @@ Scroll to the bottom of the workstation **Resource Details** page until you see 
 
 Any users that have already been invited to this workstation will be listed here, along with the status of their invite.
 
-![Workstation details users section](/sherpa-docs/images/workstation-details-users-section.png)
+![Workstation details users section]({{config.baseurl}}/images/workstation-details-users-section.png)
 
 Click on **Invite a new user** to begin adding a new user to the workstation.
 
-![Invite a new user](/sherpa-docs/images/invite-a-new-user.png)
+![Invite a new user]({{config.baseurl}}/images/invite-a-new-user.png)
 
 Enter the email address of the user you would like to invite.
 
@@ -119,11 +119,11 @@ Recent **Pending Invites** are displayed on your Sherpa **Dashboard**. Alternati
 
 You can view the status of an invite and manage it directly from this overview page.
 
-![Invites page](/sherpa-docs/images/invites-page.png)
+![Invites page]({{config.baseurl}}/images/invites-page.png)
 
 You can also view the status of an invite by hovering over the status dot next to the user entry on the **Resource Details** page for the workstation.
 
-![Invite hover over](/sherpa-docs/images/invite-hover-over.png)
+![Invite hover over]({{config.baseurl}}/images/invite-hover-over.png)
 
 ## Removing a user from a workstation
 
@@ -133,7 +133,7 @@ Scroll down to the **User** section.
 
 In the right hand column is a dropdown menu containing a list of actions that can be performed on the user. Select **Delete** and then confirm that you really want to remove this user.
 
-![Delete a user](/sherpa-docs/images/delete-a-user.png)
+![Delete a user]({{config.baseurl}}/images/delete-a-user.png)
 
 ## Trouble shooting the invite process
 
@@ -145,7 +145,7 @@ If they have not received an email and the invite does not appear in their Sherp
 
 An overview of the users and roles they posses on a project can be seen by selecting the **Users** dropdown on the **Project Details** page:
 
-![Users](/sherpa-docs/images/users.png)
+![Users]({{config.baseurl}}/images/users.png)
 The project roles are as follows.
 
 ## Artist

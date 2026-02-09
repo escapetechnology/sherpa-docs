@@ -12,15 +12,15 @@ The Display Gateway uses self-signed SSL Certificates. The traffic to the Displa
 
 Get the **Connect to:** (public IP) address of the display gateway. Make sure that your IP address is in the allow-list for the Sherpa project/Display Gateway. In a web browser type https://[ConnectToIPaddress]. Replace [ConnectToIPaddress] with the **Connect to:** (public IP) address of the display gateway. You should get a message that the site is "not secure/private".
 
-![not-private](/sherpa-docs/images/not-private.png)
+![not-private]({{config.baseurl}}/images/not-private.png)
 
 You can find out about the certificate by clicking on the badge that claims the site is not secure.
 
-![show-certificate](/sherpa-docs/images/show-certificate.png)
+![show-certificate]({{config.baseurl}}/images/show-certificate.png)
 
 Then select "Certificate is not valid/Show certificate" to reveal information about the certificate.
 
-![certificate-info](/sherpa-docs/images/certificate-info.png)
+![certificate-info]({{config.baseurl}}/images/certificate-info.png)
 
 You should see something like,
 
@@ -57,34 +57,34 @@ You can easily add a new Display Gateway to an existing Sherpa project. Please c
 
 If you go to the resource details page of the Display Gateway you will be able to see build profile details. There is a big clue in the screenshot below in that the build name contains the word **SUNSET** and the details exposed by hovering over the **?** indicates why the build profile has been sunset/retired.
 
-![display-gateway-resource-details](/sherpa-docs/images/display-gateway-resource-details.png)
+![display-gateway-resource-details]({{config.baseurl}}/images/display-gateway-resource-details.png)
 
 ### Adding a new Display Gateway
 
 To add a new Display Gateway to your project, go to the project page, click on the **+** button and select **Add Display Gateways**.
 
-![add-display-gateways](/sherpa-docs/images/add-display-gateways.png)
+![add-display-gateways]({{config.baseurl}}/images/add-display-gateways.png)
 
 The Add Display Gateways Wizard will open. Call the new display gateway something sensible like, "Display Gateway (New)". Select the latest build profile and select a suitable size.
 
-![add-display-gateways-detail](/sherpa-docs/images/add-display-gateways-detail.png)
+![add-display-gateways-detail]({{config.baseurl}}/images/add-display-gateways-detail.png)
 
 Press **Create** and the new Display Gateway will go through the normal Saved, Building and Built stages as illustrated below.
 
 Saved
-![new-display-gateway-saved](/sherpa-docs/images/new-display-gateway-saved.png)
+![new-display-gateway-saved]({{config.baseurl}}/images/new-display-gateway-saved.png)
 
 Building
-![new-display-gateway-building](/sherpa-docs/images/new-display-gateway-building.png)
+![new-display-gateway-building]({{config.baseurl}}/images/new-display-gateway-building.png)
 
 Built
-![new-display-gateway-built](/sherpa-docs/images/new-display-gateway-built.png)
+![new-display-gateway-built]({{config.baseurl}}/images/new-display-gateway-built.png)
 
 Once built, go to the resource details page and check the build profile details. In our example below, the Display Gateway software has been updated from 2023.04 to 2024.03.4 and the host operating system has been upgraded from Rocky 8.8 to Rocky 8.9.
 
 The SSL certificate will be new and will be valid for one year from the date of creation.
 
-![new-display-gateway-details](/sherpa-docs/images/new-display-gateway-details.png)
+![new-display-gateway-details]({{config.baseurl}}/images/new-display-gateway-details.png)
 
 The new Display Gateway will have a new **Connect to:** IP address. You will need to communicate this new information to your artists/users as they will need to start using this new IP address to connect to the Display Gateway and their workstations.
 

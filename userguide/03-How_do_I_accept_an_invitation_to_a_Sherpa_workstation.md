@@ -9,11 +9,11 @@ When a Sherpa administrator invites you to a workstation you will be sent an ema
 
 If you log into your Sherpa account you will see any outstanding invites on your dashboard.
 
-![Pending invite on dashboard](/sherpa-docs/images/pending_invite_on_dashboard.jpeg)
+![Pending invite on dashboard]({{config.baseurl}}/images/pending_invite_on_dashboard.jpeg)
 
 Click on the invite that you want to accept, and you will be taken to a form that will ask you to confirm your password.
 
-![Accepting an invite](/sherpa-docs/images/accepting_an_invite.jpeg)
+![Accepting an invite]({{config.baseurl}}/images/accepting_an_invite.jpeg)
 
 Once you have accepted the invite, by typing in your password, you can click on the name of your workstation to see further details about your workstation.
 

@@ -8,7 +8,7 @@ nav_order: 4
 
 Sherpa supports Autodesk Flame 2022 and 2023. The feature is enabled by request. When you have the feature enabled you should be able to see some additional build profiles in the workstation section.
 
-![Autodesk Flame](/sherpa-docs/images/autodesk-flame.png)
+![Autodesk Flame]({{config.baseurl}}/images/autodesk-flame.png)
 
 The minimal recommended size for a Flame workstation is a **T4-1-32-128** as shown in the image above.
 
