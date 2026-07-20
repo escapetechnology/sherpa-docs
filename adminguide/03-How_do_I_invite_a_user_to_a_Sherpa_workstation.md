@@ -164,4 +164,4 @@ A **Coordinator**  can not delete or create resources in a Sherpa project.
 
 ## Administrator
 
-A user hat has been invited to a workstation/project as an **Administrator** can see and do everything in that project.
+A user that has been invited to a workstation/project as an **Administrator** can see and do everything in that project.
