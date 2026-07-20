@@ -22,12 +22,17 @@ Once you have created a branch, you can now edit the Markdown files. When you ha
 
 If you want to preview your changes locally you can build the site and run a local server:
 
-Make sure you have Ruby and Bundler installed, then run:
+This project requires Ruby 3.4.x and Bundler 2.6.9. On macOS, install or switch to Ruby 3.4 first, then install the matching Bundler version:
 
 ```bash
+brew install ruby@3.4
+export PATH="/opt/homebrew/opt/ruby@3.4/bin:$PATH"
+gem install bundler -v 2.6.9
 bundle install
 bundle exec jekyll serve --watch
 ```
+
+If you use a version manager such as rbenv or asdf, make sure it is pointed at Ruby 3.4.10 before running the commands above.
 
 Then open http://localhost:4000/sherpa-docs/ in your browser.
 

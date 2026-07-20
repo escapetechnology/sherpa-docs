@@ -8,6 +8,8 @@ nav_order: 3.2
 
 The IP Allow List is used to control access to a Sherpa project from the outside world.
 
+![Add to IP allow list]({{config.baseurl}}/images/ip-allow-list-add.png)
+
 ## IP Addresses and CIDR notation
 
 Most of the time you will be using the IP address to control access to workstations in a Sherpa project. The user will have to tell you their public IP. Get them to type "what's my IP" into a browser or get them to visit <https://ifconfig.co/> or  <https://www.whatsmyip.org/>. If they see an option it is the IPv4 address that is required.
@@ -37,6 +39,8 @@ If you have to use 0.0.0.0/0 we would recommend turning on **Enable One Time Pas
 ## Scope
 
 When you add an IP address to the allow list you get to specify the scope of the IP address.
+
+![Add to IP allow list]({{config.baseurl}}/images/ip-allow-list-add.png)
 
 ### Display Gateway
 

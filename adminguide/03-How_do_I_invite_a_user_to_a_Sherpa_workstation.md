@@ -135,6 +135,10 @@ In the right hand column is a dropdown menu containing a list of actions that ca
 
 ![Delete a user]({{config.baseurl}}/images/delete-a-user.png)
 
+## Removing a user completely
+
+To remove a user's access from a project completely, please refer to the documents [Managing user’s invitations and project roles]({{config.baseurl}}/adminguide/03a-Managing_user_invitations_and_roles/) and [Allowed IP addresses and security]({{config.baseurl}}/adminguide/03b-Allowed_IP_Addresses_and_Security/).
+
 ## Trouble shooting the invite process
 
 If a user has not received an email then get them to log into their Sherpa account and see if the invite appears in their account.
@@ -160,4 +164,4 @@ A **Coordinator**  can not delete or create resources in a Sherpa project.
 
 ## Administrator
 
-An **Administrator** can see and do everything.
+A user hat has been invited to a workstation/project as an **Administrator** can see and do everything in that project.
